@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+
+<!--
+     This is a blank Tiles definition file with a commented example.
+-->
+
+<tiles-definitions>
+
+      <!--  <definition name="my" path="/layout.jsp">
+        <put name="head"  value="/Header.jsp" />
+        <put name="leftbody" value="/left.jsp" />
+        <put name="rightbody"   value="/photo_layout.jsp" />
+        <put name="footer" value="/footer.jsp" />
+     
+    </definition>-->
+   
+
+
+          <definition name="ga" path="/layout.jsp">
+        <put name="head"  value="/Header1.jsp" />
+        <put name="leftbody" value="/menu.jsp" />
+        <put name="rightbody"   value="/gallery.html" />
+        <put name="footer" value="/footer.jsp" />
+</definition>
+
+          <definition name="ome" path="/layout.jsp">
+        <put name="head"  value="/Header1.jsp" />
+        <put name="leftbody" value="/asdfgh.jsp" />
+        <put name="rightbody"   value="/gallery.html" />
+        <put name="footer" value="/footer.jsp" />
+</definition>
+
+        <definition name="my" path="/layout.jsp">
+        <put name="head"  value="/Header.jsp" />
+        <put name="leftbody" value="/left.jsp" />
+        <put name="rightbody"   value="/photo_layout.jsp" />
+        <put name="footer" value="/footer.jsp" />
+
+    </definition>
+
+ <definition name="cus" path="/layout.jsp">
+        <put name="head"  value="/Header1.jsp" />
+        <put name="leftbody" value="/menu.jsp" />
+        <put name="rightbody" value="/customer.jsp" />
+        <put name="footer" value="/footer.jsp" />
+
+    </definition>
+<definition name="mp" path="/layout.jsp">
+        <put name="head"  value="/Header1.jsp" />
+        <put name="leftbody" value="/menu.jsp" />
+        <put name="rightbody" value="/profile.jsp" />
+        <put name="footer" value="/footer.jsp" />
+
+    </definition>
+ 
+
+    <definition name="sn" path="/layout.jsp">
+        <put name="head"  value="/Header1.jsp" />
+        <put name="leftbody" value="/menu.jsp" />
+        <put name="rightbody"   value="/sign_up.jsp" />
+        <put name="footer" value="/footer.jsp" />
+
+    </definition>
+      <definition name="mn" path="/layout.jsp">
+        <put name="head"  value="/Header.jsp" />
+        <put name="leftbody" value="/left.jsp" />
+        <put name="rightbody"   value="/photo_layout.jsp" />
+        <put name="footer" value="/footer.jsp" />
+
+    </definition>
+     <definition name="ab" path="/layout.jsp">
+        <put name="head"  value="/Header1.jsp" />
+        <put name="leftbody" value="/left.jsp" />
+        <put name="rightbody"   value="/photo_layout.jsp" />
+        <put name="footer" value="/footer.jsp" />
+
+    </definition>
+     <definition name="home" path="/layout.jsp">
+        <put name="head"  value="/Header1.jsp" />
+        <put name="leftbody" value="/menu.jsp" />
+        <put name="rightbody"   value="/customer.jsp" />
+        <put name="footer" value="/footer.jsp" />
+
+    </definition>
+  <!-- <definition name=".mainMenu" path="/common/layouts/vboxLayout.jsp" >
+        <putList name="list" >
+            <add value=".menu.links" />
+            <add value=".menu.taglib.references" />
+            <add value=".menu.printer.friendly" />
+            <add value=".menu.old.documents" />
+      </putList>
+    </definition>
+
+    <definition name="aPage" extends=".mainLayout">
+        <put name="title"  value="Another Title" />
+        <put name="body"   value=".aPage.body" />
+    </definition>
+
+    end samples -->
+
+    <definition name="${YOUR_DEFINITION_HERE}">
+    </definition>
+
+</tiles-definitions>
